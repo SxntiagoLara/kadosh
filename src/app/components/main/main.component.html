@@ -1,0 +1,26 @@
+<section class=" flex flex-row items-center justify-center h-[90vh] bg-[#f8f9d744]">
+    
+
+    <div class="image flex flex-row rounded-lg shadow-2xl max-w-screen-xl h-5/6 justify-around">
+        <div class="image w-3/5 h-full">
+            <img class="size-full object-contain bg-purple-300 rounded-l-lg" src="assets/images/who.png" >
+        </div>
+        
+        <div class="selector  w-2/5 flex justify-evenly flex-col border-2 bg-white">
+            <p class="text-3xl text-center text-indigo-900">¡Identifícate y empieza tu experiencia!</p>
+            <div class="btns w-full flex justify-evenly ">
+                <a href="/register"  class="text-center w-2/5 py-3 transition ease-in-out delay-150 border-2 border-purple-500 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-purple-500 hover:text-white hover:shadow-md duration-300 rounded-md text-blue-950">Cliente</a>
+                <a href="/login" class="text-center
+                 w-2/5 py-3 transition ease-in-out delay-150 border-2 border-purple-500 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-purple-500 hover:text-white hover:shadow-md duration-300 rounded-md text-blue-950">Trabajador</a>
+            </div>
+           
+        </div>
+    </div>
+    <!-- implementación de spinner -->
+    <div class='hidden flex space-x-2 absolute justify-center items-center bg-transparent h-screen'>
+        <span class='sr-only'>Cargando...</span>
+        <div class='h-8 w-8 bg-black rounded-full animate-bounce [animation-delay:-0.3s]'></div>
+        <div class='h-8 w-8 bg-black rounded-full animate-bounce [animation-delay:-0.15s]'></div>
+        <div class='h-8 w-8 bg-black rounded-full animate-bounce'></div>
+   </div>
+</section>
